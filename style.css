@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #0b3d91, #0099cc);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #fff;
+  color: #0b3d91;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+section {
+  background: white;
+  margin: 30px auto;
+  padding: 25px;
+  max-width: 900px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #0b3d91;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.contact-buttons {
+  margin-top: 20px;
+}
+
+.contact-buttons a {
+  display: inline-block;
+  margin: 5px 10px 5px 0;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.call {
+  background: #28a745;
+}
+
+.whatsapp {
+  background: #25d366;
+}
+
+/* Contact form styles */
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+form button {
+  padding: 12px;
+  background: #0b3d91;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #0066b3;
+}
+
+footer {
+  background: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Mobile Friendly */
+@media (max-width: 600px) {
+  header {
+    padding: 40px 15px;
+  }
+  .contact-buttons a {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
